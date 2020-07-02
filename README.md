@@ -16,7 +16,7 @@ Description of the app's functionality:
 
 Description of the skills demonstrated:
   - Importing and decoding JSON data
-  - Applying the Singleton design pattern to improve code modularity
+  - Applying the Singleton design pattern to improve functional modularity
   - Developing a custom algorithm for processing a group of time data (Date instances)
   - Using table views
   - Using storyboards and auto Layouts
