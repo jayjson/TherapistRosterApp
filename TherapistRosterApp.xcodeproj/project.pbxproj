@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		D1ABF2EC24AD6B5D00CDBEA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ABF2EB24AD6B5D00CDBEA5 /* AppDelegate.swift */; };
 		D1ABF2EE24AD6B5D00CDBEA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ABF2ED24AD6B5D00CDBEA5 /* SceneDelegate.swift */; };
-		D1ABF2F024AD6B5D00CDBEA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ABF2EF24AD6B5D00CDBEA5 /* ViewController.swift */; };
-		D1ABF2F324AD6B5D00CDBEA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1ABF2F124AD6B5D00CDBEA5 /* Main.storyboard */; };
 		D1ABF2F524AD6B6100CDBEA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1ABF2F424AD6B6100CDBEA5 /* Assets.xcassets */; };
 		D1ABF2F824AD6B6100CDBEA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1ABF2F624AD6B6100CDBEA5 /* LaunchScreen.storyboard */; };
+		D1ABF30424AD6BD100CDBEA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1ABF30324AD6BD100CDBEA5 /* Main.storyboard */; };
+		D1ABF30624AD6BEF00CDBEA5 /* therapistsData.json in Resources */ = {isa = PBXBuildFile; fileRef = D1ABF30524AD6BEF00CDBEA5 /* therapistsData.json */; };
+		D1ABF30824AD6C2800CDBEA5 /* GapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ABF30724AD6C2800CDBEA5 /* GapsViewController.swift */; };
+		D1ABF30A24AD6C2D00CDBEA5 /* OnDutyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ABF30924AD6C2D00CDBEA5 /* OnDutyViewController.swift */; };
+		D1ABF30C24AD6C3300CDBEA5 /* StartingSoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ABF30B24AD6C3300CDBEA5 /* StartingSoonViewController.swift */; };
+		D1ABF30F24AD6CB900CDBEA5 /* TherapistsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ABF30E24AD6CB900CDBEA5 /* TherapistsDataManager.swift */; };
+		D1ABF31124AD6CC500CDBEA5 /* Therapist.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ABF31024AD6CC500CDBEA5 /* Therapist.swift */; };
+		D1ABF31324AD6CCA00CDBEA5 /* ShiftInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ABF31224AD6CCA00CDBEA5 /* ShiftInfo.swift */; };
+		D1ABF31524AD6CCF00CDBEA5 /* EmptyTimeSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ABF31424AD6CCF00CDBEA5 /* EmptyTimeSlot.swift */; };
+		D1ABF31824AD6D1800CDBEA5 /* GapInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ABF31724AD6D1800CDBEA5 /* GapInfoCell.swift */; };
+		D1ABF31A24AD6D1E00CDBEA5 /* OnDutyInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ABF31924AD6D1E00CDBEA5 /* OnDutyInfoCell.swift */; };
+		D1ABF31C24AD6D2300CDBEA5 /* StartingSoonInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ABF31B24AD6D2300CDBEA5 /* StartingSoonInfoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D1ABF2E824AD6B5D00CDBEA5 /* TherapistRosterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TherapistRosterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1ABF2EB24AD6B5D00CDBEA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1ABF2ED24AD6B5D00CDBEA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D1ABF2EF24AD6B5D00CDBEA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D1ABF2F224AD6B5D00CDBEA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1ABF2F424AD6B6100CDBEA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1ABF2F724AD6B6100CDBEA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1ABF2F924AD6B6100CDBEA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1ABF30324AD6BD100CDBEA5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D1ABF30524AD6BEF00CDBEA5 /* therapistsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = therapistsData.json; sourceTree = "<group>"; };
+		D1ABF30724AD6C2800CDBEA5 /* GapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GapsViewController.swift; sourceTree = "<group>"; };
+		D1ABF30924AD6C2D00CDBEA5 /* OnDutyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnDutyViewController.swift; sourceTree = "<group>"; };
+		D1ABF30B24AD6C3300CDBEA5 /* StartingSoonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartingSoonViewController.swift; sourceTree = "<group>"; };
+		D1ABF30E24AD6CB900CDBEA5 /* TherapistsDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TherapistsDataManager.swift; sourceTree = "<group>"; };
+		D1ABF31024AD6CC500CDBEA5 /* Therapist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Therapist.swift; sourceTree = "<group>"; };
+		D1ABF31224AD6CCA00CDBEA5 /* ShiftInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShiftInfo.swift; sourceTree = "<group>"; };
+		D1ABF31424AD6CCF00CDBEA5 /* EmptyTimeSlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyTimeSlot.swift; sourceTree = "<group>"; };
+		D1ABF31724AD6D1800CDBEA5 /* GapInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GapInfoCell.swift; sourceTree = "<group>"; };
+		D1ABF31924AD6D1E00CDBEA5 /* OnDutyInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnDutyInfoCell.swift; sourceTree = "<group>"; };
+		D1ABF31B24AD6D2300CDBEA5 /* StartingSoonInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartingSoonInfoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,81 @@
 		D1ABF2EA24AD6B5D00CDBEA5 /* TherapistRosterApp */ = {
 			isa = PBXGroup;
 			children = (
-				D1ABF2EB24AD6B5D00CDBEA5 /* AppDelegate.swift */,
-				D1ABF2ED24AD6B5D00CDBEA5 /* SceneDelegate.swift */,
-				D1ABF2EF24AD6B5D00CDBEA5 /* ViewController.swift */,
-				D1ABF2F124AD6B5D00CDBEA5 /* Main.storyboard */,
-				D1ABF2F424AD6B6100CDBEA5 /* Assets.xcassets */,
-				D1ABF2F624AD6B6100CDBEA5 /* LaunchScreen.storyboard */,
-				D1ABF2F924AD6B6100CDBEA5 /* Info.plist */,
+				D1ABF2FF24AD6B8100CDBEA5 /* Delegates */,
+				D1ABF31D24AD7BAB00CDBEA5 /* Managers */,
+				D1ABF30D24AD6CA500CDBEA5 /* Models */,
+				D1ABF30224AD6BB500CDBEA5 /* Resources */,
+				D1ABF30124AD6BA700CDBEA5 /* Storyboards */,
+				D1ABF30024AD6B9800CDBEA5 /* View Controllers */,
+				D1ABF31624AD6D1000CDBEA5 /* Views */,
 			);
 			path = TherapistRosterApp;
+			sourceTree = "<group>";
+		};
+		D1ABF2FF24AD6B8100CDBEA5 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				D1ABF2EB24AD6B5D00CDBEA5 /* AppDelegate.swift */,
+				D1ABF2ED24AD6B5D00CDBEA5 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		D1ABF30024AD6B9800CDBEA5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D1ABF30724AD6C2800CDBEA5 /* GapsViewController.swift */,
+				D1ABF30924AD6C2D00CDBEA5 /* OnDutyViewController.swift */,
+				D1ABF30B24AD6C3300CDBEA5 /* StartingSoonViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D1ABF30124AD6BA700CDBEA5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D1ABF30324AD6BD100CDBEA5 /* Main.storyboard */,
+				D1ABF2F624AD6B6100CDBEA5 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D1ABF30224AD6BB500CDBEA5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D1ABF30524AD6BEF00CDBEA5 /* therapistsData.json */,
+				D1ABF2F424AD6B6100CDBEA5 /* Assets.xcassets */,
+				D1ABF2F924AD6B6100CDBEA5 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D1ABF30D24AD6CA500CDBEA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D1ABF31024AD6CC500CDBEA5 /* Therapist.swift */,
+				D1ABF31224AD6CCA00CDBEA5 /* ShiftInfo.swift */,
+				D1ABF31424AD6CCF00CDBEA5 /* EmptyTimeSlot.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D1ABF31624AD6D1000CDBEA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D1ABF31724AD6D1800CDBEA5 /* GapInfoCell.swift */,
+				D1ABF31924AD6D1E00CDBEA5 /* OnDutyInfoCell.swift */,
+				D1ABF31B24AD6D2300CDBEA5 /* StartingSoonInfoCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D1ABF31D24AD7BAB00CDBEA5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D1ABF30E24AD6CB900CDBEA5 /* TherapistsDataManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +211,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1ABF30424AD6BD100CDBEA5 /* Main.storyboard in Resources */,
+				D1ABF30624AD6BEF00CDBEA5 /* therapistsData.json in Resources */,
 				D1ABF2F824AD6B6100CDBEA5 /* LaunchScreen.storyboard in Resources */,
 				D1ABF2F524AD6B6100CDBEA5 /* Assets.xcassets in Resources */,
-				D1ABF2F324AD6B5D00CDBEA5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +225,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1ABF2F024AD6B5D00CDBEA5 /* ViewController.swift in Sources */,
+				D1ABF31C24AD6D2300CDBEA5 /* StartingSoonInfoCell.swift in Sources */,
+				D1ABF31824AD6D1800CDBEA5 /* GapInfoCell.swift in Sources */,
+				D1ABF31A24AD6D1E00CDBEA5 /* OnDutyInfoCell.swift in Sources */,
+				D1ABF30C24AD6C3300CDBEA5 /* StartingSoonViewController.swift in Sources */,
+				D1ABF30824AD6C2800CDBEA5 /* GapsViewController.swift in Sources */,
+				D1ABF30F24AD6CB900CDBEA5 /* TherapistsDataManager.swift in Sources */,
 				D1ABF2EC24AD6B5D00CDBEA5 /* AppDelegate.swift in Sources */,
+				D1ABF31324AD6CCA00CDBEA5 /* ShiftInfo.swift in Sources */,
 				D1ABF2EE24AD6B5D00CDBEA5 /* SceneDelegate.swift in Sources */,
+				D1ABF31524AD6CCF00CDBEA5 /* EmptyTimeSlot.swift in Sources */,
+				D1ABF30A24AD6C2D00CDBEA5 /* OnDutyViewController.swift in Sources */,
+				D1ABF31124AD6CC500CDBEA5 /* Therapist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D1ABF2F124AD6B5D00CDBEA5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D1ABF2F224AD6B5D00CDBEA5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D1ABF2F624AD6B6100CDBEA5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,15 +373,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TherapistRosterApp/Info.plist;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = TherapistRosterApp/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jayjson.TherapistRosterApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,15 +392,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TherapistRosterApp/Info.plist;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = TherapistRosterApp/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jayjson.TherapistRosterApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
