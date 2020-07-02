@@ -18,7 +18,7 @@ struct EmptyTimeSlot {
         formatter.timeStyle = .short
         let startTimeAsString = formatter.string(from: startTime)
         let endTimeAsString = formatter.string(from: endTime)
-        return "No Therapist: \(startTimeAsString) to \(endTimeAsString)."
+        return "No Therapist: \(startTimeAsString) to \(endTimeAsString)"
     }
     
 }

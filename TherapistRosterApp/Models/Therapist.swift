@@ -22,7 +22,7 @@ struct Therapist: Decodable {
     let name: String
     let shiftInfo: ShiftInfo
     
-    // MARK: -For display in table view cells
+    // MARK: For display in table view cells
     var lastName: String {
         let fullNameArray = name.components(separatedBy: " ")
         guard let lastName = fullNameArray.last else { return "" }
@@ -66,7 +66,7 @@ struct Therapist: Decodable {
         }
     }
 
-    // MARK: -For extracting Date info
+    // MARK: For extracting Date info
     var startTimeInGMT: Date {
         let timeNow = Date()
         var calendar = Calendar.current
@@ -87,7 +87,7 @@ struct Therapist: Decodable {
         return endTimeAsGMTDate
     }
     
-    // MARK: -Related to therapist status
+    // MARK: Related to therapist status
     var isOnDuty: Bool {
         let currentTimeInGMT = Date()
         if currentTimeInGMT >= startTimeInGMT && currentTimeInGMT < endTimeInGMT {
@@ -102,8 +102,7 @@ struct Therapist: Decodable {
         var calendar = Calendar.current
         calendar.timeZone = .current
         let startOfTheDayInGMT = calendar.startOfDay(for: currentTimeInGMT)
-        let endOfTheDayInGMT = startOfTheDayInGMT.addingTimeInterval(TimeInterval(60*60*24))
-        if startTimeInGMT > currentTimeInGMT && startTimeInGMT < endOfTheDayInGMT {
+        if let endOfTheDayInGMT = calendar.date(byAdding: .day, value: 1, to: startOfTheDayInGMT), startTimeInGMT > currentTimeInGMT && startTimeInGMT < endOfTheDayInGMT {
             return true
         } else {
             return false
